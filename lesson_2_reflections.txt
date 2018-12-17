@@ -1,0 +1,11 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+What happens is that opens a hidden directory called .git where all the
+meta-data of the history of the files is going to be stored. It DOES NOT create the first commit for you.
+Why need to do it in order to start saving the metadata in that part. I don't know!!!
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is were all the drafts of changes are. This is a transient space between the working directory and the repository.
+The Working directory does not have the history information or metadata.
+The process is like this
+working directory --(add file 1)-->staging area --(just one commit for all)--> repository
+                  --(add file_N)-->
