@@ -25,3 +25,8 @@ problems at the moment of merging...
 The result is the comparison between three commits the head of the two branches and the commit were those two were the same.
 From were the two branches were the same it can delete or add whatever was deleted or added in the two branches
 if there are no logical problems (I am guessing).
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+        automatic                     Hand
+PRO     is fast. is easy            Tedious and long
+CONS   can have stupid conflicts    More accurate
