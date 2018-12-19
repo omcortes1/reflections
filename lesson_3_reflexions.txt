@@ -1,2 +1,9 @@
 1. When would you want to create a remote repository rather than keeping all your work local?
-Always?!?!? I guess when you have a working product you would like to have the backup so if something happens to the local machine you will have your work safe. Also when you want to collaborate with other people. 
+Always?!?!? I guess when you have a working product you would like to have the backup so if something happens to the local machine you will have your work safe. Also when you want to collaborate with other people.
+
+2.Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+Well because sometimes the state of your product is not ready to be shared and
+can push to your remote something that is not Working. I guess you can go around
+ this if you have a experimental branch... no?
